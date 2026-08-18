@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portofolio</div>
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#sertifikasi">Sertifikasi</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+     <!-- Hero Section Modern Upgrade -->
+<section class="hero-classic">
+    <div class="hero-classic-container">
+        <!-- Sisi Kiri: Teks & Tombol -->
+        <div class="hero-text-side">
+            <!-- Badge Status Suka-Suka/Available -->
+            <div class="status-badge">
+                <span class="pulse-dot"></span> Available for Work & Projects
+            </div>
+
+            <span class="greeting-text">Hello, I'm</span>
+            <h1 class="profile-name">Novia Zulma</h1>
+            <h2 class="profile-role">Network Engineer <span>|</span> SysAdmin</h2>
+            
+            <!-- Deskripsi Singkat untuk Mengisi Ruang Kosong -->
+            <p class="hero-description">
+                Spesialis dalam mengelola infrastruktur jaringan, sistem virtualisasi server, dan pengawasan keandalan sistem agar tetap stabil & andal.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://drive.google.com/file/d/1Iye1Qog9M0B7TS9_Wh1zYiCSGjLMWcmN/view?usp=sharing" target="_blank" class="btn-primary">
+                    <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                </a>
+                <a href="#kontak" class="btn-secondary">
+                    <i class="fa-solid fa-paper-plane"></i> Hubungi Saya
+                </a>
+            </div>
+        </div>
+
+        <!-- Sisi Kanan: Foto Profil dengan Framing Keren -->
+        <div class="hero-image-side">
+            <div class="image-wrapper">
+                <!-- Lingkaran Glow di belakang foto -->
+                <div class="glow-bg"></div>
+                
+                <img src="foto-profil.png" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80';" 
+                     alt="Novia Zulma" 
+                     class="profile-img">
+
+                <!-- Badge Floating Melayang di Foto -->
+                <div class="floating-badge">
+                    <i class="fa-solid fa-server"></i>
+                    <div>
+                        <strong>SysAdmin & Net</strong>
+                        <span>Infrastructure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+    <!-- Tentang Saya -->
+<section id="tentang" class="section">
+    <div class="section-title">
+        <h2>Tentang Saya</h2>
+        <p>Mengenal latar belakang dan fokus keahlian saya di bidang infrastruktur IT</p>
+    </div>
+
+    <div class="about-container">
+        <!-- Teks Deskripsi -->
+        <div class="about-text">
+            <h3>Menjaga Performa & Keandalan Infrastruktur IT Tetap Optimal</h3>
+            <p>
+                Saya seorang <strong>Network Engineer</strong> & <strong>SysAdmin</strong> yang berfokus pada perancangan, pemeliharaan, serta otomatisasi infrastruktur jaringan dan server. Berpengalaman dalam mengelola sistem virtualisasi (Proxmox/Ceph), konfigurasi jaringan (Cisco/MikroTik), hingga administrasi server Linux.
+            </p>
+            <p>
+                Prioritas utama saya adalah memastikan <em>high availability</em> (sistem selalu aktif), meminimalkan <em>downtime</em>, serta menjaga efisiensi lalu lintas jaringan agar seluruh ekosistem IT berjalan mulus.
+            </p>
+        </div>
+
+        <!-- Kartu Highlighting / Stats -->
+        <div class="about-stats">
+            <div class="stat-card">
+                <i class="fa-solid fa-server stat-icon"></i>
+                <div>
+                    <h4>10+</h4>
+                    <p>Server Managed</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <i class="fa-solid fa-network-wired stat-icon"></i>
+                <div>
+                    <h4>99.9%</h4>
+                    <p>Target Uptime</p>
+                </div>
+            </div>
+
+            <!-- Pengganti Kartu Security (Fokus ke Virtualisasi/Jaringan) -->
+            <div class="stat-card">
+                <i class="fa-solid fa-cubes stat-icon"></i>
+                <div>
+                    <h4>Virtualization</h4>
+                    <p>Proxmox & Ceph Cluster</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="keahlian" class="section bg-light">
+        <h2>Keahlian & Teknologi</h2>
+        <!-- <p>Sistem dan teknologi yang biasa saya operasikan:</p> -->
+
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <!-- Set 1 -->
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/proxmox/E04E39" alt="Proxmox"><span>Proxmox</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/ceph/00528A" alt="Ceph"><span>Ceph</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/cisco/049FD9" alt="Cisco"><span>Cisco</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/mikrotik/231F20" alt="MikroTik"><span>MikroTik</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux"><span>Linux</span></div>
+                <!-- <div class="skill-card"><img src="https://cdn.simpleicons.org/kalilinux/557C93" alt="Kali Linux"><span>Kali Linux</span></div> -->
+
+                <!-- Set 2 (Duplikat agar animasi berjalan mulus tanpa putus) -->
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/proxmox/E04E39" alt="Proxmox"><span>Proxmox</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/ceph/00528A" alt="Ceph"><span>Ceph</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/cisco/049FD9" alt="Cisco"><span>Cisco</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/mikrotik/231F20" alt="MikroTik"><span>MikroTik</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux"><span>Linux</span></div>
+                <div class="skill-card"><img src="https://cdn.simpleicons.org/kalilinux/557C93" alt="Kali Linux"><span>Kali Linux</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sertifikasi Section -->
+<section id="sertifikasi" class="section bg-light">
+    <div class="section-title">
+        <h2>Sertifikasi </h2>
+        <!-- <p>Lisensi dan sertifikasi resmi yang mengakui kompetensi teknis saya</p> -->
+    </div>
+
+    <div class="cert-container">
+        <!-- Kartu Sertifikat 1 -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="cert-info">
+                <h3>MTCNA - MikroTik Certified Network Associate</h3>
+                <p class="cert-issuer">MikroTik</p>
+                <!-- <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> Tahun Terbit: 2024</span> -->
+                <a href="https://mikrotik.com/training/certificates/c481335c1b9fe88839d1" class="cert-link" target="_blank" rel="noopener noreferrer">
+                    Lihat Lisensi <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Kartu Sertifikat 2 -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="cert-info">
+                <h3>EHE - Ethical Hacking Essentials</h3>
+                <p class="cert-issuer">EC-Council</p>
+                <!-- <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> Tahun Terbit: 2024</span> -->
+                <a href="https://drive.google.com/file/d/1MIgUiV7H6PhASGdt1kLbA73limhzGt0t/view?usp=drive_link" class="cert-link" target="_blank" rel="noopener noreferrer">
+                    Lihat Lisensi <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+        <!-- 2. CCNA: Switching, Routing, and Wireless Essentials -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <div class="cert-info">
+                <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+                <p class="cert-issuer">Cisco Networking Academy </p>
+                <!-- <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> 19 Feb 2025 • 70 Jam</span> -->
+                <!-- <p class="cert-desc">Instruktur: Erwin Setyo Nugroho</p> -->
+                <!-- Ganti # dengan link PDF/Credly/Drive jika ada -->
+                <a href="https://www.credly.com/badges/5dcab2d1-d817-4bad-b42f-55ff6de4230c" class="cert-link" target="_blank" rel="noopener noreferrer">
+                    Lihat Lisensi <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- 3. CCNA: Introduction to Networks -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="cert-info">
+                <h3>CCNA: Introduction to Networks</h3>
+                <p class="cert-issuer">Cisco Networking Academy </p>
+                <!-- <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> 28 Jan 2025 • 70 Jam</span> -->
+                <!-- <p class="cert-desc">Instruktur: Erwin Setyo Nugroho</p> -->
+                <!-- Ganti # dengan link PDF/Credly/Drive jika ada -->
+                <a href="https://www.credly.com/badges/91ec259f-28a8-497d-b239-70ecd2ce2f1a" class="cert-link" target="_blank" rel="noopener noreferrer">
+                    Lihat Lisensi <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- 4. Network Defense -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="cert-info">
+                <h3>Network Defense</h3>
+                <p class="cert-issuer">Cisco Networking Academy </p>
+                <!-- <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> 30 Sep 2023 • 27 Jam</span> -->
+                <!-- <p class="cert-desc">Instruktur: Sugeng Purwantoro E.S.G.S</p> -->
+                <!-- Ganti # dengan link PDF/Credly/Drive jika ada -->
+                <a href="https://www.credly.com/badges/f1722c7a-c366-455e-8271-3390ff336eee" class="cert-link" target="_blank" rel="noopener noreferrer">
+                    Lihat Lisensi <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Proyek & Lab Section -->
+<section id="proyek" class="section">
+    <div class="section-title">
+        <h2>Proyek & Eksperimen Lab</h2>
+        <p>Dokumentasi implementasi jaringan, server, dan infrastruktur IT yang pernah saya bangun</p>
+    </div>
+
+    <div class="project-grid">
+        <!-- Proyek 1: Virtualisasi / Proxmox Cluster -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80" alt="Proxmox High Availability Cluster">
+            </div>
+            <div class="project-content">
+                <div class="project-tags">
+                    <span>Proxmox VE</span>
+                    <span>Ceph Storage</span>
+                    <span>High Availability</span>
+                    <span>Fault Tolerance</span>
+                </div>
+                <h3>High Availability dan Fault Tolerance pada Cluster Proxmox VE</h3>
+                <p>Evaluasi ketahanan cluster 3-node Proxmox VE dengan Ceph Storage terhadap kegagalan perangkat keras nyata. Menguji skenario power failure (pemutusan daya mendadak) yang berhasil memicu auto-failover dalam 1–2 menit, serta skenario disk failure yang berdampak pada degradasi layanan FTP dan downtime layanan Mail akibat beban recovery & backfilling Ceph.</p>
+                <a href="#" class="project-link" target="_blank">
+                    Lihat Dokumentasi <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Proyek 2: Routing & Switching (MikroTik / Cisco) -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="dashboard.png" alt="dashboard">
+            </div>
+            <div class="project-content">
+                <div class="project-tags">
+                    <span>React JS</span>
+                    <span>Admin Dashboard</span>
+                    <span>Company Profile</span>
+                    <span>Vercel Deployment</span>
+                </div>
+                <h3>Lacof - Admin Management & Coffee Shop Dashboard</h3>
+                <p>Sistem manajemen admin berbasis web untuk coffee shop Lacof yang dirancang menggunakan React JS. Dilengkapi dengan fitur monitoring transaksi (Dine in, Take away, Delivery), manajemen katalog produk, artikel, FAQ, tim, loker, testimoni, booking, hingga kelola role user dan galeri..</p>
+                <a href="https://lacof-app.vercel.app/" class="project-link" target="_blank">
+                    Lihat <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Proyek 3: Server Hardening / Monitoring -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://media.licdn.com/dms/image/v2/D562DAQHpT4PdCx4N9w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737467849020?e=1787155200&v=beta&t=gctRtAN9vcuzFIyTQSTxjxADAVk3s6cBgJJsu-ZTqzs" alt="Server Monitoring">
+            </div>
+            <div class="project-content">
+                <div class="project-tags">
+                    <span>Laravel</span>
+                    <span>PHP</span>
+                    <span>Fullstack</span>
+                    <span>Company Profile</span>
+                    <span>UMKM Kuliner</span>
+                </div>
+                <h3>Company Profile & Digital Menu - Nasi Ekonomi Makmur</h3>
+                <p>Pengembangan website Company Profile Fullstack (Frontend & Backend) untuk UMKM kuliner Nasi Ekonomi Makmur berbasis Laravel. Mengintegrasikan penayangan katalog daftar menu interaktif, promo bundler hemat, ulasan/testimoni pelanggan, serta profil informasi usaha UMKM secara komprehensif..</p>
+                <a href="#" class="project-link" target="_blank">
+                    Lihat Detail Proyek <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Kontak -->
+    <!-- Hubungi Saya -->
+    <section id="kontak" class="section">
+        <h2>Hubungi Saya</h2>
+        <p>Mari terhubung atau diskusikan proyek bersama saya melalui platform berikut:</p>
+
+        <div class="social-links">
+            <!-- Email -->
+            <a href="mailto:noviazulmaa@gmail.com" class="social-icon email" target="_blank" title="Kirim Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/username-anda" class="social-icon instagram" target="_blank" rel="noopener noreferrer" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/novia-zulma-2b39812b2/" class="social-icon linkedin" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2026 Novia Zulma. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
